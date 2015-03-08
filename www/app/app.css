@@ -1,0 +1,75 @@
+/* app css stylesheet */
+* {
+  box-sizing: border-box;
+}
+
+.dashboard {
+  padding: 20px;
+}
+
+.button {
+  border: 2px solid darkgray;
+  border-radius: 4px 4px 4px 4px;
+  background-color: lightgray;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial,sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 0;
+  padding: 7px 10px;
+  text-transform: none;
+  transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  width: 10%; /* auto */
+  text-align: center; /* DELETE WHEN WIDTH AUTO */
+  opacity: 0.8;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.button-row .button {
+  margin-right: 10px;
+}
+
+.button-row .button:last-of-type {
+  margin-right: 0;
+}
+
+.button-row {
+  text-align: right;
+  padding: 20px;
+}
+
+.button.selected {
+  background-color: skyblue;
+}
+
+.col-12, .col-6 {
+  float: left;
+}
+
+.col-12 {
+  width: 100%;
+}
+.col-6 {
+  width: 50%;
+}
+
+#segment-data {
+  padding: 20px;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.center {
+  text-align: center;
+}

@@ -1,0 +1,24 @@
+<div class="dashboard"> 
+  <div class="button-row">
+    <button class="button" ng-class="{selected: dateRange == dr}" ng-repeat="dr in dateRanges" ng-click="setDateRange($index)">{{dr.name}}</button>
+  </div>
+
+  <div class="col-12">
+    <h2>Activity</h2>
+    <div id="activity-chart"></div>
+  </div>
+
+  <div class="col-6">
+    <h2>Segments</h2>
+    <div id="segment-data">
+      <div ng-repeat="segment in segmentData | orderBy: 'key'">
+        <h3 style="text-transform: capitalize"><a ng-click="changeSegment(segment.key)">{{segment.key}}</a></h3>
+        <p>{{segment.values.count}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-6">
+    <h2 class="center">Devices</h2>
+    <div id="device-chart"></div>
+  </div>
+</div>

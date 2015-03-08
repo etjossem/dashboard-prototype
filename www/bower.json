@@ -1,0 +1,16 @@
+{
+  "name": "angular-dashboard-demo",
+  "description": "Demo of an analytics dashboard in Angular.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/etjossem/angular-dashboard-demo",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.2.x",
+    "angular-route": "1.2.x",
+    "angular-loader": "1.2.x",
+    "angular-mocks": "~1.2.x",
+    "html5-boilerplate": "~4.3.0",
+    "c3": "master" 
+  }
+}
